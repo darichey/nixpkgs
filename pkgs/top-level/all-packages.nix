@@ -16953,6 +16953,8 @@ with pkgs;
   electron-bin = electron_32-bin;
   electron-chromedriver = electron-chromedriver_32;
 
+  castlabs-electron = callPackage ../development/tools/castlabs-electron { };
+
   autobuild = callPackage ../development/tools/misc/autobuild { };
 
   autoconf-archive = callPackage ../development/tools/misc/autoconf-archive { };
